@@ -853,7 +853,7 @@ textarea::placeholder {
   margin-right: 8px;
 }
 .form-checkbox:checked + .form-checkbox-label::before {
-  background-image: url(./images/icon-check.svg);
+  background-image: url(../images/icon-check.svg);
   border: none;
 }
 .form-checkbox:focus + .form-checkbox-label::before {
@@ -911,6 +911,6 @@ textarea::placeholder {
   width: 24px;
   height: 24px;
   margin-left: 10px;
-  background-image: url(./images/icon-send.svg);
+  background-image: url(../images/icon-send.svg);
   background-size: cover;
 }
