@@ -914,3 +914,9 @@ textarea::placeholder {
   background-image: url(../images/icon-send.svg);
   background-size: cover;
 }
+.join-right {
+  margin-top: 15px;
+}
+.join-subscribe {
+  margin-top: 15px;
+}
