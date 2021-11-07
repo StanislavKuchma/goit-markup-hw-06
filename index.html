@@ -407,13 +407,64 @@
         </li>
       </ul>
       </div>
+      <!--Подписка на рассылку-->
+      <div class="join-subscribe"> 
+        <p class="join-title">Подпишитесь на рассылку</p>
+        <form class="form-subscribe">
+          
+            <label >
+              <input class="subscribe-input" type="email" name="subscribe-mail" placeholder="E-mail">
+            </label>
+            <button class="button subscribe-button" type="submit">Подписаться</button>
+         </form>
+      </div>
       </div>
     </footer>
+    <!--Модальное окно-->
     <div class="backdrop is-hidden" data-modal>
-      <div class="modal" >
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam iure blanditiis sunt mollitia? Minus, ducimus animi eveniet voluptatum, assumenda, voluptates nesciunt nihil fuga mollitia praesentium earum? Officia vel dignissimos dolorum?
 
-      </p>
+      <div class="modal" >
+        
+        <form class="form">
+          <div class="form-field">
+            <b>Оставьте свои данные, мы вам перезвоним</b>
+
+          <label class="form-label" >Имя
+            <span class="form-wrapper">
+              <input class="form-input" type="text" name="user-name">
+            <svg class="form-icon">
+              <use href="./images/symbol-defs.svg#icon-person-black"></use>
+            </svg>
+             </span>
+          </label>
+          <label class="form-label" >Телефон
+            <span class="form-wrapper">
+              <input class="form-input" type="tel" name="user-tel">
+            <svg class="form-icon">
+              <use href="./images/symbol-defs.svg#icon-phone-black"></use>
+            </svg>
+            </span>
+          </label>
+          <label class="form-label" >Почта
+            <span class="form-wrapper">
+              <input class="form-input" type="email" name="user-mail">
+            <svg class="form-icon">
+              <use href="./images/symbol-defs.svg#icon-email-black"></use>
+            </svg>
+            </span>
+          </label>
+          
+          <label class="form-label" for="comment">Коментарий</label>
+          <textarea class="form-comment" name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
+          </div>
+        
+          <input class="form-checkbox visually-hidden " type="checkbox" name="policy" id="policy">
+          <label class="form-checkbox-label" for="policy">Соглашаюсь с рассылкой и принимаю
+          <a href="#">Условия договора</a>
+          </label>
+              
+           <button type="submit" class="button form-button">Отправить</button>
+        </form>
       <button class="modal-button" data-modal-close>
         <svg class="modal-close-icon">
           <use href="./images/symbol-defs.svg#icon-close"></use>
