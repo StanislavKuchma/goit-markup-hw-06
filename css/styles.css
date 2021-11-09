@@ -515,12 +515,11 @@ header {
   background-color: var(--accent--color);
 }
 .join-right {
-  /* padding-top: 12px;
-  padding-bottom: 40px; */
   margin-left: 70px;
 }
 .footer-sections {
   display: flex;
+  align-items: baseline;
 }
 /*Button*/
 .button {
@@ -534,10 +533,10 @@ header {
   border: none;
   cursor: pointer;
 
-  width: 210px;
+  width: 200px;
   min-height: 50px;
   border-radius: 4px;
-  padding: 10px 32px;
+  padding: 10px 30px;
 
   transition: background-color 250ms var(--time--animation),
     color 250ms var(--time--animation);
@@ -557,8 +556,6 @@ header {
   text-align: center;
   cursor: pointer;
 
-  /* min-width: 80px;
-  min-height: 38px; */
   border-radius: 4px;
   padding: 6px 22px;
 
@@ -576,8 +573,6 @@ header {
   cursor: pointer;
   border: none;
 
-  /* min-width: 80px;
-  min-height: 38px; */
   border-radius: 4px;
   padding: 6px 22px;
 
@@ -904,6 +899,7 @@ textarea::placeholder {
 .subscribe-button {
   display: flex;
   align-items: center;
+  padding: 10px auto;
 }
 .subscribe-button::after {
   display: inline-block;
@@ -914,9 +910,6 @@ textarea::placeholder {
   background-image: url(../images/icon-send.svg);
   background-size: cover;
 }
-.join-right {
-  margin-top: 15px;
-}
-.join-subscribe {
-  margin-top: 15px;
+.join-left {
+  width: 231px;
 }
